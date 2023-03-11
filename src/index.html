@@ -13,17 +13,51 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <nav class="navbar">
+      <div class="container-fluid d-flex">
+        <div class="navbar-brand" href="#">
+          <img
+            src="https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-2-colored/100/Terminator-512.png"
+            alt="Logo"
+            width="40"
+            height="34"
+            class="d-inline-block align-text-top"
+          />
+          ExcuseGenerator
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="container-fluid"
+      style="height:700px; background-size:contain; background-image:url('https://images.unsplash.com/photo-1550668117-fb78fc47c149?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGNpdGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');"
+    >
+      <div class="row justify-content-center">
+        <div
+          class="mask mt-5"
+          style="background-color: rgba(234, 233, 233, 0.6);"
+        >
+          <div class="d-flex justify-content-center align-items-center">
+            <div>
+              <h1 id="excuse" class="mb-5 display-1"><b>One Page Wonder</b></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center mt-5">
+          <button id="btn" class="h3"
+            style="background-color:rgba(201, 197, 197, 0.82);border-radius:20px;"
+          >
+            <b>Generate Excuse<b>
+          </button>
+        </div>
       </div>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
